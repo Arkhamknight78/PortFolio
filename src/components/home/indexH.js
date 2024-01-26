@@ -72,13 +72,13 @@ const Home = () => {
                     </span>
                 </h2>
                 {/* <Link to='/contact' className='flat-button'> Contact Me </Link> */}
-
-
+                <div className='flat-button'> <a href='https://resume.io/r/lBBq3RhjM' target='_blank' className='button' rel="noreferrer">Resume</a> </div>
             </div>
         </div>
         <div className='img-zone'>
             <img src={IMG_3644} alt='logo' />
         </div>
+        
         <Loader type='pacman'  />
         </>
     );

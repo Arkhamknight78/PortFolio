@@ -64,6 +64,20 @@
         letter-spacing: 1px;
       }
     }
+    .button{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 15px;
+      font-weight: 900;
+      color: #ffd700;
+      text-decoration: wavy;
+      // text-decoration: underline;
+      &:hover{
+          font-weight: 900;
+          color: #333;
+          text-decoration: underline;
+      }
+  }
     .flat-button{
         color: #ffd700;
         font-size: 13px;
@@ -79,7 +93,7 @@
         margin-left: 90px;
         white-space: nowrap;
         &:hover{
-            background: #ffd700;
+            background: #edc202;
             color: #333;
             transition: all 0.3s ease-in-out;
         } 
