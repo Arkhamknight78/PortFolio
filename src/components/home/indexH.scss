@@ -1,13 +1,12 @@
 .home-page {
     .text-zone {
-
       position: absolute;
       top: 33%;
       left: .25%;
       bottom: auto;
-      transform: translateY(-50%);
-      width: 40%;
-      max-height: 90%;
+      transform: translateY(-40%);
+      width: 61%;
+      // max-height: 190%;
     }
   
     h1 {
@@ -57,10 +56,51 @@
       margin-top: 25px;
       margin-left: 90px;
   
-     
+      .skills {
+        font-size:17px;
+        font-family:'sans-serif';
+        color: adjust-hue($color: #0b7165, $degrees: 0);
+        font-weight: 200;
+        letter-spacing: 1px;
+      }
     }
-    
+    .flat-button{
+        color: #ffd700;
+        font-size: 13px;
+        font-size: 600;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding: 15px 23px;
+        border: 2px solid #ffd700;
+        border-radius: 5px;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.7s backwards;
+        margin-left: 90px;
+        white-space: nowrap;
+        &:hover{
+            background: #ffd700;
+            color: #333;
+            transition: all 0.3s ease-in-out;
+        } 
+
+    }
   }
+  .img-zone{
+    width: 80%;
+    top: 40px;
+    left: 720px;
+    position:relative;
+    animation: fadeIn 1s 1.7s backwards;
+    img{
+      margin-left: 20px;
+      width: 40%;
+      height: 60%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
   
   @keyframes fadeIn {
     from {

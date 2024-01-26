@@ -1,12 +1,13 @@
-import V from '../../assets/images/V.png'
+
 import './indexH.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters/indexAni';
 import Loader from 'react-loaders';
+import IMG_3644 from '../../assets/images/IMG_3644.jpg'
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
 
-    const nameArray = ['i', 'n', 'a', 'y', 'a', 'k'];
+    const nameArray = [' ', 'V','i', 'n', 'a', 'y', 'a', 'k', ','];
     const jobArray = [
      'A', 
      ' ',
@@ -46,7 +47,7 @@ const Home = () => {
                     <br />
                     <span className={`${letterClass} _13`}>I'</span>
                     <span className={`${letterClass} _14`}>m</span>
-                    <img src={V} alt="Developer" />
+                    {/* <img src={V} alt="Developer" /> */}
                     <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
                     <br/>
                     <AnimatedLetters letterClass={letterClass}
@@ -55,7 +56,17 @@ const Home = () => {
                 </h1>
 
                 <h2>
-                    <span className='skills'>FrontEnd Developer | React Developer | JavaScript Developer
+                    <span className='skills'>| C++ | Java | Python | Data Structures | Algorithms | OOPs 
+                    <br/>
+                    | JavaScript| jQuery | ReactJS | NodeJS | MongoDB | MySQL 
+                     
+                    <br/>
+                     | HTML | CSS  | Git | GitHub  | Netlify | Firebase | OAuth2.0 | RESTful | JSON
+
+                     <br/>
+
+
+                        <br />
                         <br />
                         I design and code beautifully simple things, and I love what I do.
                     </span>
@@ -64,6 +75,9 @@ const Home = () => {
 
 
             </div>
+        </div>
+        <div className='img-zone'>
+            <img src={IMG_3644} alt='logo' />
         </div>
         <Loader type='pacman'  />
         </>

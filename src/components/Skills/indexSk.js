@@ -40,7 +40,8 @@ const About = () => {
                     <br />
                         - <span className='techname' >Node.js:</span> Experience in building server-side applications using Node.js and Express.js.
                         <br />
-                        - <span className='techname'>Database:</span> Familiarity with relational databases (MySQL) and NoSQL databases (MongoDB).
+                        - <span className='techname'>Database:</span> Familiarity with relational databases <span className='techname'>(MySQL)</span> and
+                        NoSQL databases <span className='techname'>(MongoDB)</span>.
                         <br />
                         
                         - <span className='techname'>OAuth2.0:</span> Experience in implementing OAuth2.0 for authentication and authorization.
@@ -48,10 +49,10 @@ const About = () => {
                     <p>
                         <u><span>Programming Languages</span></u>
                         <br />
-                        - <span className='techname'>Python:</span> Competent in developing applications and scripts in Python.
+                        - <span className='techname'>Java:</span>Object Oriented Programming with Java.
                         <br />
                         
-                        - <span className='techname'>C++/Java:</span> Solving Data-Structures and Algorithm with C++ and Object Oriented Programming with C++ and Java.
+                        - <span className='techname'>C++/Java:</span> Solving Data-Structures and Algorithm with C++ 
                         <br />
                     </p>
                     <p>
