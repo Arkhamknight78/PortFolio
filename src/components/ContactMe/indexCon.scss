@@ -1,0 +1,75 @@
+
+.email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 100;
+    color: #ffd700;
+    text-decoration: underline;
+    &:hover{
+        color: #333;
+        text-decoration: none;
+    }
+}
+.linkedin{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 100;
+    color: #1365c3;
+    text-decoration: underline;
+    &:hover{
+        color: #333;
+        text-decoration: none;
+    }
+}
+.flat-button{
+    color: #ffd700;
+    font-size: 7px;
+    font-size: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: left;
+    animation: fadeIn 1s 1.7s backwards;
+    margin-left: 10px;
+    white-space: nowrap;
+    &:hover{
+        background: #ffd700;
+        color: #333;
+        transition: all 0.3s ease-in-out;
+    } 
+
+}
+.img{
+    margin-top: 2%;
+    height: 80%;
+    width: 92%;
+    // background-color: rgb(24, 24, 24) ;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 lightyellow;
+    margin-left: 6%;
+    margin-right: 6%;
+    left: 100%;
+
+    &::before{
+        content: "<img/ src= ";
+        content: "  ";
+        font-family: "La Belle Aurore", cursive;
+        margin-left: 6%;
+        margin-bottom: 5%;
+        position: absolute;
+       
+       
+    }
+    &::after{
+        content: " />";
+        position: absolute;
+      
+        margin-left: 5%;
+    }
+}
