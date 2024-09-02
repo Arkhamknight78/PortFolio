@@ -3,12 +3,13 @@ import './indexH.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters/indexAni';
 import Loader from 'react-loaders';
-import IMG_3644 from '../../assets/images/IMG_3644.jpg'
+import PortFolio from '../../assets/images/PortFolio.jpg'
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
 
     const nameArray = [' ', 'V','i', 'n', 'a', 'y', 'a', 'k', ','];
-    const jobArray = [
+    const jobArray = 
+    [
      'A', 
      ' ',
      'W',
@@ -72,11 +73,11 @@ const Home = () => {
                     </span>
                 </h2>
                 {/* <Link to='/contact' className='flat-button'> Contact Me </Link> */}
-                <div className='flat-button'> <a href='https://docs.google.com/document/d/1Ql4asovQRRQSig3W-ogVj3cDcmU_h6JZc5UFMrEdJyo/edit?usp=sharing' target='_blank' className='button' rel="noreferrer">Resume</a> </div>
+                <div className='flat-button'> <a href='https://docs.google.com/document/d/1rfu-tJHxOhdfj27PDK8tDnwpW7hYAmRzQ6lFyGyNj6I/edit?usp=sharing' target='_blank' className='button' rel="noreferrer">Resume</a> </div>
             </div>
         </div>
         <div className='img-zone'>
-            <img src={IMG_3644} alt='logo' />
+            <img src={PortFolio} alt='logo' />
         </div>
         
         <Loader type='pacman'  />
