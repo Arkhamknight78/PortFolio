@@ -2,12 +2,11 @@ import './index.scss'
 import {Link, NavLink }  from 'react-router-dom'
 
 // import LogoSubtitle from '../../../assets/images/logo_sub.png'
-import CIcon from '@coreui/icons-react'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser, faLaptop } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faUpwork } from '@fortawesome/free-brands-svg-icons'
 import leetcodeIcon from './leetcodeIcon.png'
-import { cibLeetcode } from '@coreui/icons'
 const Sidebar=() => {
     return (
         <div className='nav-bar'>
@@ -66,7 +65,7 @@ const Sidebar=() => {
                     color='#4d4d4e'
                     style={{width: '30px', height: '30px'}}
                     />
-                    {/* <CIcon icon={cibLeetcode} color='#4d4d4e' size='lg'/> */}
+                    
 
                 </a>
             </li>
