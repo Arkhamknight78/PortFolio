@@ -9,23 +9,29 @@ const Home = () => {
 
     const nameArray = [' ', 'V','i', 'n', 'a', 'y', 'a', 'k', ','];
     const jobArray = 
-    [
-     'A', 
-     ' ',
-     'W',
-     'e',
-     'b', 
-     ' ', 
-     'D', 
-     'e', 
-     'v', 
-     'e', 
-     'l', 
-     'o', 
-     'p', 
-     'e', 
-     'r'
-    ];
+        [
+         ' ',
+         'A',
+         ' ',
+         'S', 
+         'o', 
+         'f', 
+         't', 
+         'w', 
+         'a', 
+         'r', 
+         'e', 
+         ' ', 
+         'D', 
+         'e', 
+         'v', 
+            'e',
+            'l',
+            'o',
+            'p',
+            'e',
+            'r'
+        ];
 
     useEffect(() => {
         // Set the timeout
@@ -57,13 +63,9 @@ const Home = () => {
                 </h1>
 
                 <h2>
-                    <span className='skills'>| C++ | Java | Python | Data Structures | Algorithms | OOPs 
+                    <span className='skills'>| C++ | Java  | JavaScript | Python | Data Structures | Algorithms | OOPs 
                     <br/>
-                    | JavaScript| jQuery | ReactJS | NodeJS | MongoDB | MySQL 
-                     
-                    <br/>
-                     | HTML | CSS  | Git | GitHub  | Netlify | Firebase | OAuth2.0 | RESTful | JSON
-
+                   | ReactJS | NodeJS | MongoDB | MySQL | Git | GitHub  | RESTful | SpringBoot | ExpressJS | Bootstrap | Tailwind CSS
                      <br/>
 
 
@@ -73,7 +75,7 @@ const Home = () => {
                     </span>
                 </h2>
                 {/* <Link to='/contact' className='flat-button'> Contact Me </Link> */}
-                <div className='flat-button'> <a href='https://drive.google.com/file/d/1bq1SqVbaDZlazxjei-dG2wLwy_x7XG_2/view?usp=sharing' target='_blank' className='button' rel="noreferrer">Resume</a> </div>
+                <div className='flat-button'> <a href='https://drive.google.com/file/d/1K9tNw8C3pqWz5l_E8jn5JRyMwNpR8NX-/view?usp=sharing' target='_blank' className='button' rel="noreferrer">Resume</a> </div>
             </div>
         </div>
         <div className='img-zone'>

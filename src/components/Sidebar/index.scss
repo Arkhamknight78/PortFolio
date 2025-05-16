@@ -91,6 +91,11 @@ nav{
             content: 'CONTACT';
         }
     }
+    a.project_link{
+        &:after{
+            content: 'Project';
+        }
+    }
     
 
     a.active{

@@ -33,7 +33,7 @@ const About = () => {
             <p>
                
                <div className='flat-button'>
-                <a href="mailto:vinsxn02@gmail.com" className="email">Contact me via email</a> 
+                <a href="mailto:vinsxn02@gmail.com" className="email">vinsxn02@gmail.com</a> 
                 </div> 
             </p>
 
