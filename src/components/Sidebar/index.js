@@ -2,11 +2,12 @@ import './index.scss'
 import {Link, NavLink }  from 'react-router-dom'
 
 // import LogoSubtitle from '../../../assets/images/logo_sub.png'
-
+import CIcon from '@coreui/icons-react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser, faLaptop } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faUpwork } from '@fortawesome/free-brands-svg-icons'
-import leetcodeIcon from '../../assets/icons/leetcodeIcon.avif'
+import leetcodeIcon from './leetcodeIcon.png'
+import { cibLeetcode } from '@coreui/icons'
 const Sidebar=() => {
     return (
         <div className='nav-bar'>
@@ -55,9 +56,17 @@ const Sidebar=() => {
             <li>
                 <a target='_blank'
                  rel="noreferer noreferrer"
-                 href='https://github.com/Arkhamknight78'
+                 href='https://leetcode.com/u/VinayakS78/'
                 >
-                    <FontAwesomeIcon icon={leetcodeIcon} color='#4d4d4e' />
+                    {/* <FontAwesomeIcon icon={} color='#4d4d4e' />
+                     */}
+                    <img src={leetcodeIcon} 
+                    alt='leetcode' 
+                    className='leetcodeIcon' 
+                    color='#4d4d4e'
+                    style={{width: '30px', height: '30px'}}
+                    />
+                    {/* <CIcon icon={cibLeetcode} color='#4d4d4e' size='lg'/> */}
 
                 </a>
             </li>
