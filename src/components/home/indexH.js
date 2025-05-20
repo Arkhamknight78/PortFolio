@@ -75,7 +75,7 @@ const Home = () => {
                     </span>
                 </h2>
                 {/* <Link to='/contact' className='flat-button'> Contact Me </Link> */}
-                <div className='flat-button'> <a href='https://drive.google.com/file/d/1K9tNw8C3pqWz5l_E8jn5JRyMwNpR8NX-/view?usp=sharing' target='_blank' className='button' rel="noreferrer">Resume</a> </div>
+                <div className='flat-button'> <a href='https://drive.google.com/file/d/12rAcT4ujt9ZwXftxkyyfDPYesGQIglte/view?usp=sharing' target='_blank' className='button' rel="noreferrer">Resume</a> </div>
             </div>
         </div>
         <div className='img-zone'>
