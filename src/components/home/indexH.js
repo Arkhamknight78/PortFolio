@@ -25,13 +25,12 @@ const Home = () => {
          'D', 
          'e', 
          'v', 
-            'e',
-            'l',
-            'o',
-            'p',
-            'e',
-            'r'
-        ];
+         'e',
+         'l',
+         'o',
+         'p',
+         'e',
+         'r'];
 
     useEffect(() => {
         // Set the timeout

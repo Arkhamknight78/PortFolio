@@ -8,6 +8,10 @@ $primary-color: #ffd700;
   font-family: 'Helvetica neue';
   src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
  }
+ @font-face{
+  font-family: 'Open Sans';
+  src: url('./assets/fonts/OpenSans-Regular.ttf') format('ttf');
+ }
  @font-face {
     font-family: 'La Belle Aurore';
     src: url('./assets/fonts/LaBelleAurore.woff2') format( 'woff2');
